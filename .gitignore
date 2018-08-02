@@ -59,3 +59,13 @@ typings/
 
 # next.js build output
 .next
+
+#editor config
+.idea/
+.vscode/
+
+#typeorm ignores
+build/
+tmp/
+temp/
+dist/

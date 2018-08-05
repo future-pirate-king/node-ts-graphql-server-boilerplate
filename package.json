@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Awesome project developed with TypeORM.",
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.1",
     "@types/jest": "^23.3.1",
     "@types/node": "^10.5.5",
     "@types/uuid": "^3.4.3",
@@ -17,6 +18,7 @@
     "typescript": "3.0.1"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "graphql-import": "^0.6.0",
     "graphql-yoga": "^1.15.0",
     "pg": "^7.3.0",
@@ -33,6 +35,13 @@
       "^.+\\.tsx?$": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   }
 }

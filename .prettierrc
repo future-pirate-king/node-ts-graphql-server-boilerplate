@@ -1,9 +1,0 @@
-{
-  "bracketSpacing": true,
-  "parser": "babylon",
-  "singleQuote": true,
-  "arrowParens": "avoid",
-  "semi": true,
-  "printWidth": 100,
-  "trailingComma": "es5"
-}

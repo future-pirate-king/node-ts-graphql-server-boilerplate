@@ -38,6 +38,7 @@
     "gen-schema": "gql2ts src/schema.graphql -o src/types/schema.d.ts"
   },
   "jest": {
+    "globalSetup": "./src/test-setup/call-setup.js",
     "verbose": true,
     "testURL": "http://localhost/",
     "transform": {

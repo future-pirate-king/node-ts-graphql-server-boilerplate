@@ -33,6 +33,7 @@ const graphqlServer = () => {
   });
 
   const redis = new Redis();
+
   const server = new GraphQLServer({
     schema: mergeSchemas({ schemas }),
     context: ({ request }) => ({
